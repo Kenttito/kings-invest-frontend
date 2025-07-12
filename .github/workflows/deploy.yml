@@ -35,9 +35,6 @@ jobs:
         env:
           VITE_API_URL: https://laravel-production-7db4.up.railway.app
       
-      - name: Copy 404.html
-        run: cp 404.html build/
-      
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
